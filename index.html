@@ -3,7 +3,33 @@
 
 <head>
   <meta charset="UTF-8">
+  <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
   <title>Meu Portfólio</title>
+  <style>
+
+    body {
+      font-family: 'Noto Serif', serif;
+    }
+
+    h1, h3, h4 {
+     color: #ff0000; 
+    }
+
+    .button {
+      padding: 1px;
+      background-color: #ff0000;
+      text-decoration: none;
+      color: white;
+    }
+
+    .buttonIndex {
+      text-decoration: underline;
+      color: black;
+    }
+
+  </style>
 </head>
 
 <body>
@@ -14,7 +40,7 @@
   <h3 id="SobreMim">1. Sobre Mim:</h3>
   <p>
     <em>
-      "Eu tenho 33 anos, sou Pernambucana, nasci em Olinda, mas moro em Natal/RN. <br> Sou advogada em <strong>transição de carreira</strong> e estou estudando na Trybe para me tornar uma <strong>desenvolvedora web full stack</strong>."
+      "Eu tenho 33 anos, sou Pernambucana, nasci em Olinda, mas moro em Natal/RN. <br> Sou advogada em <strong>transição de carreira</strong> e estou estudando na <a class="button" href="https://www.betrybe.com/" target="_blanck">Trybe</a> para me tornar uma <strong>desenvolvedora web full stack</strong>."
       <br>"Sou uma pessoa extremamente sociável, comunicativa e fácil de fazer amizade. Gosto muito de música, dança, filmes, séries, animais e atividades ao ar livre."
     </em>
   </p>
@@ -44,20 +70,19 @@
 
   <h3 id="Blog">3. Blog:</h3>
   <p>Sempre que posso, eu leio algumas coisas na internet para me manter atualizada na área da tecnologia.
-    <br> Vou deixar aqui o link de um blog que eu gosto.
+    <br> Vou deixar aqui o <a class="button" href="https://blog.betrybe.com/" target="_blanck">link</a> de um blog que eu gosto.
   </p>
-  <a href="https://blog.betrybe.com/" target="_blanck">Visite o Blog</a>
   
   <h3 id="Contato">4. Contato:</h3>
-  <p>Se quiser saber mais sobre mim, minha vida profissional ou até mesmo conversar comigo, pode fazer isso através do meu <a href="https://www.linkedin.com/in/gabriela-de-mesquita-ferraz-a3a017b0/" target="_blanck">Linkedin</a> e do meu <a href="https://github.com/GabiFerraz" target="_blanck">GitHub</a>.</p>
+  <p>Se quiser saber mais sobre mim, minha vida profissional ou até mesmo conversar comigo, pode fazer isso através do meu <a class="button" href="https://www.linkedin.com/in/gabriela-de-mesquita-ferraz-a3a017b0/" target="_blanck">Linkedin</a> e do meu <a class="button" href="https://github.com/GabiFerraz" target="_blanck">GitHub</a>.</p>
 
   <h3>Índice</h3>
   <ol>
-    <li><a href="#MinhaFoto">Minha Foto</a></li>
-    <li><a href="#SobreMim">Sobre Mim</a></li>
-    <li><a href="#MinhasHabilidades">Minhas Habilidades</a></li>
-    <li><a href="#Blog">Blog</a></li>
-    <li><a href="#Contato">Contato</a></li>
+    <li><a class="buttonIndex" href="#MinhaFoto">Minha Foto</a></li>
+    <li><a class="buttonIndex" href="#SobreMim">Sobre Mim</a></li>
+    <li><a class="buttonIndex" href="#MinhasHabilidades">Minhas Habilidades</a></li>
+    <li><a class="buttonIndex" href="#Blog">Blog</a></li>
+    <li><a class="buttonIndex" href="#Contato">Contato</a></li>
   </ol>
 </body>
 
