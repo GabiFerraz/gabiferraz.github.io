@@ -1,8 +1,9 @@
 body {
-    font-family: 'Noto Serif', serif;
-    background-image: url(/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  font-family: 'Noto Serif', serif;
+  background-image: url(/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
   }
 
   h1, h3, h4 {
@@ -10,7 +11,7 @@ body {
   }
 
   h1 {
-      text-align: center;
+    text-align: center;
   }
 
   .button {
@@ -25,17 +26,30 @@ body {
   }
 
   #MinhaFoto {
-      height: 250px;
-      height: 400px;
-      border-radius: 50%;
-      padding: 1%;
-      float: left;
+    height: 250px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
   }
 
   .imageContainer {
-      height: 450px;
+    height: 400px;
+    display: inline-block;
   }
 
-  #SobreMim {
-      
+  .SobreMim {
+    text-align: justify;
+    display: inline-block;
+    transform: translateY(-100%);
+    margin-left: 30px;
       }
+  
+  .softSkills {
+    display: inline-block;
+    margin-right: 100px;
+  }
+
+  .hardSkills {
+    display: inline-block;
+    transform: translateY(-90%);
+  }
