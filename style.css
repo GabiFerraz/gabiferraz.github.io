@@ -73,32 +73,46 @@ body {
   }
 
   h1, h3, h4 {
-   color: #ff0000; 
+   color: #F20530; 
   }
 
   .SobreMim {
-    text-align: justify;
+    text-align: center;
     display: flex;
-    flex-flow: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
     gap: 10px;
-    /* background-color: white; */
+    background-color: #DDE2E5;
+    padding: 20px 0;
     /* transform: translateY(-60%); */
     /* margin-left: 30px; */
+  }
+  
+  .SobreMim h3 {
+    /* width: 100%; */
+    text-align: left;
+    margin-left: 50px;
   }
 
   .SobreMim p {
     text-align: center;
   }
 
-  #MinhasHabilidades {
+  .habilidades {
     display: flex;
-    flex-flow: wrap;
-    flex-direction: column; 
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    margin-bottom: 10px;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #F2C791;
+    padding: 20px 0;
+  }
+
+  .habilidades h3 {
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
   }
 
   .skills {
@@ -107,14 +121,8 @@ body {
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    /* background-color: white; */
     width: 700px;
     padding: 15px 0;
-  }
-
-  .softSkills {
-    /* align-items: center; */
-    /* margin-right: 100px; */
   }
   
   .skillsLista {
@@ -124,25 +132,45 @@ body {
   }
 
   .hardSkills {
-    /* display: flex; */
-    /* flex-flow: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
+    text-align: center;
+    align-items: center;
+    align-content: center;
   }
 
-  #Contato {
-    margin-top: 30px;
+  .projects{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #DDE2E5;
+    padding: 20px 0;
   }
 
-  h3 {
-    margin-top: 30px;
+  .projects h3 {
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .contact {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #F2C791;
+    padding: 20px 0;
+  }
+
+  .contact h3 {
+    /* width: 100%; */
+    text-align: left;
+    margin-left: 50px;
   }
 
   .button {
     padding: 1px;
     text-decoration: none;
-    color: #ff0000;
+    color: #F2935C;
   }
 
   .buttonIndex {
@@ -153,4 +181,3 @@ body {
   footer {
     margin: 20px 0;
   }
-  
