@@ -40,19 +40,28 @@ body {
     height: 100%;
     float: right;
     position: relative;
-    left: 0px;
-    transition: left 300ms linear;
+    animation-name: foto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* animation-direction: alternate; */
+    /* left: 0px; */
+    /* transition: left 900ms linear; */
   }
 
-  #MinhaFoto:hover{
-    left: 100px;
+  @keyframes foto {
+    from {right: 0px;}
+    to {left: 300px;}
   }
+  /* #MinhaFoto:hover{
+    left: 300px;
+  } */
 
   .branco {
     background-color: white;
     position: absolute;
     transform: skew(-15deg);
-    width: calc(100% - 145px);
+    width: calc(100% - 340px);
     height: 400px;
   }
 
@@ -91,8 +100,8 @@ body {
   
   .SobreMim h3 {
     /* width: 100%; */
-    text-align: left;
-    margin-left: 50px;
+    text-align: center;
+    /* margin-left: 50px; */
   }
 
   .SobreMim p {
