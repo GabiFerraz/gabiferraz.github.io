@@ -44,22 +44,17 @@ body {
     float: right;
     position: relative;
     animation-name: foto;
-    animation-duration: 7s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    transition: left 700ms linear;
-    /* animation-direction: alternate; */
-    /* left: 0px; */
+    transition: left 700ms ease-in-out;
   }
 
   @keyframes foto {
-    0% {left: 0px;}
+    0% {left: 100px;}
     50% {left: 300px;}
-    100% {left: 0px;}
+    100% {left: 100px;}
   }
-  /* #MinhaFoto:hover{
-    left: 300px;
-  } */
 
   .branco {
     background-color: white;
@@ -101,11 +96,6 @@ body {
     background-color: #DDE2E5;
     padding: 20px 0;
     line-height: 30px;
-    /* background-image: url(img7047.jpg);
-    background-size: cover;
-    min-height: 100vh; */
-    /* transform: translateY(-60%); */
-    /* margin-left: 30px; */
   }
   
   .gif {
