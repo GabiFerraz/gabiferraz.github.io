@@ -115,7 +115,7 @@ body {
   .SobreMim h3 {
     /* width: 100%; */
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 25px;
   }
 
@@ -144,6 +144,7 @@ body {
     align-self: flex-start;
     margin-left: 2%;
     font-size: 25px;
+    margin-top: 30px;
   }
 
   .skills {
@@ -189,6 +190,8 @@ body {
     align-self: flex-start;
     margin-left: 2%;
     font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
   }
 
   .fotoProjects{
