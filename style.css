@@ -44,7 +44,7 @@ body {
     float: right;
     position: relative;
     animation-name: foto;
-    animation-duration: 3s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     transition: left 700ms linear;
@@ -53,8 +53,9 @@ body {
   }
 
   @keyframes foto {
-    from {right: 0px;}
-    to {left: 300px;}
+    0% {left: 0px;}
+    50% {left: 300px;}
+    100% {left: 0px;}
   }
   /* #MinhaFoto:hover{
     left: 300px;
@@ -100,6 +101,9 @@ body {
     background-color: #DDE2E5;
     padding: 20px 0;
     line-height: 30px;
+    /* background-image: url(img7047.jpg);
+    background-size: cover;
+    min-height: 100vh; */
     /* transform: translateY(-60%); */
     /* margin-left: 30px; */
   }
@@ -138,7 +142,7 @@ body {
 
   .habilidades h3 {
     align-self: flex-start;
-    margin-left: 13%;
+    margin-left: 2%;
     font-size: 25px;
   }
 
