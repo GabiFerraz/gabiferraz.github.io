@@ -3,6 +3,7 @@
   margin: 0;
   font-family: 'Irish Grover', cursive;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,16 +18,71 @@ body {
   }
 
   header {
-    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DDE2E5;
     width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
   
-  h1 {
-    margin: 30px 0;
+  .logo {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    /* background-color: aquamarine; */
+  }
+
+  /* h1 {
+    margin-left: 50px;
     text-align: center;
     font-size: 40px;
-  }
+  } */
   
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    padding-right: 30px;
+    /* background-color: #F2C791; */
+  }
+
+  .buttomLogo {
+    text-decoration: none;
+  }
+
+  .buttomSobreMim{
+    text-decoration: none;
+    color: black;
+  }
+
+  .buttomHabilits {
+    text-decoration: none;
+    color: black;
+  }
+
+  .buttomProjects {
+    text-decoration: none;
+    color: black;
+  }
+
+  .buttomContact {
+    text-decoration: none;
+    color: black;
+  }
+
+  main {
+    margin-top: 60px;
+  }
+
   .imageContainer {
     height: 400px;
     overflow: hidden;
@@ -44,16 +100,16 @@ body {
     float: right;
     position: relative;
     animation-name: foto;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     transition: left 700ms ease-in-out;
   }
 
   @keyframes foto {
-    0% {left: 100px;}
+    0% {left: 160px;}
     50% {left: 300px;}
-    100% {left: 100px;}
+    100% {left: 160px;}
   }
 
   .branco {
@@ -64,16 +120,19 @@ body {
     height: 400px;
   }
 
-  .logo {
+  h1 {
     position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     pointer-events: none;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 250px;
   }
 
   main {
@@ -213,19 +272,36 @@ body {
     margin-top: 20px;
   }
 
-  .fa-linkedin {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+    width: 100%;
     font-size: 20px;
+  }
+  
+  /* .fraseFooter{
+    width: 50%;
+  } */
+
+  .contato {
+    display: flex;
+    justify-content: space-around;
+    width: 12%;
+    /* justify-content: space-around;
+    width: 50%; */
+    /* background-color: #F20530; */
+  }
+
+  .fa-linkedin {
+    font-size: 25px;
     color: #2e66c2;
   }
 
   .fa-github {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
   }
-
-  footer {
-    margin: 20px 0;
-    width: 100%;
-    text-align: center;
-    font-size: 20px;
-  }
+  

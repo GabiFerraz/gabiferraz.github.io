@@ -5,55 +5,86 @@
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Zen+Old+Mincho:wght@400;700;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Zen+Old+Mincho:wght@400;700;900&display=swap"
+    rel="stylesheet" />
   <link rel="shortcut icon" href="logotitle.png" type="image/x-icon">
   <title>Portfólio GabiFerraz</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Portfólio Web de Gabriela de Mesquita Ferraz</h1>
-    <section class="imageContainer">
-      <img id="MinhaFoto" src="GabiFerraz.jpg" alt="Foto do rosto de Gabriela sorrindo e usando óculos de grau">
-      <div class="branco"></div>
-      <div class="logo">
-        <img src="Logo2.png" alt="Logo">
-      </div>
+    <!-- <h1>Portfólio Web de Gabriela de Mesquita Ferraz</h1> -->
+    <div class="logo">
+      <a class="buttomLogo" href="#inicio">
+        <img src="Logo3.png" alt="Logo" width="135px">
+      </a>
+    </div>
+    <section class="menu">
+      <a class="buttomSobreMim" href="#sobreMim">
+        <p>Sobre Mim</p>
+      </a>
+      <a class="buttomHabilits" href="#Habilidades">
+        <p>Habilidades</p>
+      </a>
+      <a class="buttomProjects" href="#projetos">
+        <p>Projetos</p>
+      </a>
+      <a class="buttomContact" href="#Contato">
+        <p>Me Contate</p>
+      </a>
     </section>
   </header>
-  
+
   <main>
-    <section class="SobreMim">
+    <section id="inicio" class="imageContainer">
+      <img id="MinhaFoto" src="GabiFerraz.jpg" alt="Foto do rosto de Gabriela sorrindo e usando óculos de grau">
+      <div class="branco"></div>
+      <h1>Portfólio Web <br> Gabriela de Mesquita Ferraz</h1>
+      <!-- <div class="logo">
+        <img src="Logo2.png" alt="Logo">
+      </div> -->
+    </section>
+
+    <section id="sobreMim" class="SobreMim">
       <img src="img7047.jpg" alt="" width="400px">
-      <img src="hipismo.png" alt="" width="300px">
+      <img src="hipismo.jpg" alt="" width="300px">
       <section class="texto">
         <h3>1. Sobre Mim:</h3>
         <p>
-          <em>"Eu tenho 33 anos, sou Pernambucana, nasci em Olinda/PE, <br> mas moro em Natal/RN. Sou advogada em <strong>transição de carreira</strong> <br> e estou estudando na <a class="button" href="https://www.betrybe.com/" target="_blanck"><img src="main_logo-e1621602371409.png" alt="Logo da Trybe" class="trybe"></a> para me tornar uma <br> <strong>desenvolvedora web full stack</strong>.
-          <br>Sou uma pessoa apaixonada pelos animais e tudo que envolve eles. <br> Sou Bailarina de Dança do Ventre e Amazona. <br> Gosto muito de música, dança, atividades ao ar livre, filmes e séries <br> (principalmente os da Disney, Marvel e o mundo de Harry Potter). <br> Adoro fazer novas amizades e meu sonho é viajar o mundo!"
+          <em>"Sou Pernambucana, nasci em Olinda e moro em Natal/RN. <br> Sou uma advogada que se apaixonou por
+            tecnologia, e hoje, investindo <br> nessa paixão, estou estudando na <a class="button"
+              href="https://www.betrybe.com/" target="_blanck"><img src="main_logo-e1621602371409.png"
+                alt="Logo da Trybe" class="trybe"></a> para me tornar uma <br> <strong>desenvolvedora web full
+              stack</strong>, com o objetivo de evoluir e crescer <br> profissionalmente neste campo de atuação. <br>Sou
+            uma
+            pessoa apaixonada pelos animais e tudo que envolve eles. <br> Sou Bailarina de Dança do Ventre e Amazona.
+            <br> Gosto muito de praia, música, dança, atividades ao ar livre, filmes e séries <br> (principalmente os da
+            Disney, Marvel e o mundo de Harry Potter). <br> Adoro fazer novas amizades e meu sonho é viajar o mundo!"
           </em>
         </p>
       </section>
     </section>
 
-    <section class="habilidades">
+    <section id="Habilidades" class="habilidades">
       <h3>2. Minhas Habilidades:</h3>
       <section class="skills">
         <section class="softSkills">
           <h4>Habilidades de Soft Skills:</h4>
-            <em><strong>
+          <em><strong>
               <p>Comunicação</p>
               <p>Adaptabilidade</p>
-            </em></strong>
-              <p>Empatia</p>
-              <p>Colaboração</p>
-              <p>Capacidade de análise</p>
-              <p>Organização</p>
-              <p>Flexibilidade</p>
-              <p>Autoconfiança</p>
-              <p>Comprometimento</p>
+          </em></strong>
+          <p>Empatia</p>
+          <p>Colaboração</p>
+          <p>Capacidade de análise</p>
+          <p>Organização</p>
+          <p>Flexibilidade</p>
+          <p>Autoconfiança</p>
+          <p>Comprometimento</p>
         </section>
         <section class="hardSkills">
           <h4>Habilidades de Hard Skills:</h4>
@@ -66,24 +97,33 @@
         <img class="gif" src="GabiFerraz.gif" alt="Gif animado de Gabi Ferraz" width="600">
       </section>
     </section>
-  
-    <section class="projects">
+
+    <section id="projetos" class="projects">
       <h3>3. Meus Projetos:</h3>
       <section class="fotoProjects">
         <div>
-          <a href="https://gabiferraz.github.io/project-lessons-learned/" target="_blank"><img class="ProjectLessonsLearned" src="ProjectLessonsLearned.jpg" alt="Foto do Projeto Lessons Learned"></a>
+          <a href="https://gabiferraz.github.io/project-lessons-learned/" target="_blank"><img
+              class="ProjectLessonsLearned" src="ProjectLessonsLearned.jpg" alt="Foto do Projeto Lessons Learned"></a>
         </div>
-        <div><a href="" target="_blanck"><img class="ProjectColor" src="ProjectColor.png" alt="Foto do Projeto Color"></a></div>
-        <div><a href="" target="_blanck"><img class="ProjectWhatColor" src="ProjectWhatColor.png" alt="Foto do Projeto What Color"></a></div>
-        <div><a href="" target="_blanck"><img class="ProjectLetter" src="ProjectLetter.png" alt="Foto do Projeto Letter"></a></div>
+        <div><a href="" target="_blanck"><img class="ProjectColor" src="ProjectColor.png"
+              alt="Foto do Projeto Color"></a></div>
+        <div><a href="" target="_blanck"><img class="ProjectWhatColor" src="ProjectWhatColor.png"
+              alt="Foto do Projeto What Color"></a></div>
+        <div><a href="" target="_blanck"><img class="ProjectLetter" src="ProjectLetter.png"
+              alt="Foto do Projeto Letter"></a></div>
       </section>
     </section>
-  
+
   </main>
 
-  <footer><a href="https://www.linkedin.com/in/gabriela-de-mesquita-ferraz-a3a017b0/"
-    target="_blanck"><i class="fab fa-linkedin"></i></a> Feito com ❤️ por Gabi Ferraz <a href="https://github.com/GabiFerraz"
-    target="_blanck"><i class="fab fa-github"></i></a></footer>
+  <footer>
+    <section class="fraseFooter">Feito com ❤️ por Gabi Ferraz</section>
+    <section id="Contato" class="contato">Contate-me:
+      <a href="https://www.linkedin.com/in/gabriela-de-mesquita-ferraz-a3a017b0/" target="_blanck"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/GabiFerraz" target="_blanck"><i class="fab fa-github"></i></a>
+    </section>
+  </footer>
 
 </body>
 
